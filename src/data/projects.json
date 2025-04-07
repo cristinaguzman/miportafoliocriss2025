@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Caso Práctico de Investigación",
+    "description": "El proyecto Arte en Línea surge para apoyar a los artistas durante la pandemia, facilitando la venta de sus obras a través de una app intuitiva y de fácil acceso. Tras múltiples conversaciones y encuestas, se diseñó una solución inspirada en apps similares, pero adaptada a la realidad local, donde no hay opciones tan específicas.",
+    "image": "https://i.ibb.co/m52nrN8R/Captura-de-pantalla-2025-04-02-232633.png",
+    "liveUrl": "https://www.criss.cl/m7_portafolio_t1_parte3/pdf/1-caso_practico-artelinea.pdf",
+    "githubUrl": "https://github.com/janedoe/ecommerce-platform",
+    "tags": [
+      "figma",
+      "Wireframe",
+      "Diseño de interfaces",
+      "Pruebas de usabilidad"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Primera EWtapa Sitio Web Hospital",
+    "description": "el enfoque estará en la implementación del preprocesador SASS para gestionar los estilos de forma más eficiente, modularizando correctamente el código y utilizando metodologías como BEM para organizar los estilos."
+,"image": "https://i.ibb.co/zWwsLjwh/portrait-young-female-doctor-scrubs-protective-face-mask-preparing-anesthesia-machine-before-operati.jpg",
+    "liveUrl": "https://cristinaguzman.github.io/ejercicio3-modulo2/",
+    "githubUrl": "https://github.com/cristinaguzman/ejercicio3-modulo2.git",
+    "tags": [
+      "React",
+      "Html",
+      "Bootstrap"
+      
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Weather Dashboard",
+    "description": "Panel de control del clima que muestra pronósticos actuales y futuros para múltiples ubicaciones.",
+    "image": "https://i.ibb.co/S4xvCtRL/3020401.jpg",
+    "liveUrl": "https://weathertiempo.netlify.app/",
+    "githubUrl": "https://github.com/cristinaguzman/Weathertiempo2.git",
+    "tags": [
+      "JavaScript",
+      "OpenWeather API",
+      "Chart.js"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "App Ordenes de Trabajo",
+    "description": "App sobre registro de Ordenes de trabajo",
+    "image": "https://i.ibb.co/Q1NxVjH/Gesti-n-Interna.png",
+    "liveUrl": "https://plantaexterna.netlify.app/",
+    "githubUrl": "https://github.com/cristinaguzman/taskflow2.git",
+    "tags": [
+      "React.js",
+      "Node.js",
+      "Bootstrap"
+  
+    ]
+  }
+]

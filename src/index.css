@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Base Colors */
+    --background: 175 100% 92%;          /* #c5fcee */
+    --foreground: 165 24% 38%;           /* #4e8075 */
+
+    /* Card/Popover */
+    --card: 175 100% 92%;
+    --card-foreground: 165 24% 38%;
+
+    --popover: 175 100% 92%;
+    --popover-foreground: 165 24% 38%;
+
+    /* Brand Colors */
+    --primary: 315 58% 61%;              /* #007f93 */
+    --primary-foreground: 175 100% 92%;  /* #c5fcee */
+
+    --secondary: 167 38% 56%;            /* #66baa8 */
+    --secondary-foreground: 175 100% 92%;
+
+    --accent: 165 24% 38%;               /* #4e8075 */
+    --accent-foreground: 175 100% 92%;
+
+    --muted: 175 100% 92%;
+    --muted-foreground: 165 24% 38%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 175 100% 92%;
+
+    /* Borders, Inputs, Rings */
+    --border: 165 24% 50%;               /* #4e8075 */
+    --input: 165 24% 50%;
+    --ring: 315 58% 61%;                 /* #007f93 */
+
+    /* UI Radius */
+    --radius: 0.5rem;
+
+    /* Sidebar Styling */
+    --sidebar-background: 175 100% 92%;
+    --sidebar-foreground: 165 24% 38%;
+    --sidebar-primary: 315 58% 61%;
+    --sidebar-primary-foreground: 175 100% 92%;
+    --sidebar-accent: 167 38% 80%;
+    --sidebar-accent-foreground: 165 24% 38%;
+    --sidebar-border: 165 24% 70%;
+    --sidebar-ring: 165 24% 38%;
+
+    scroll-behavior: smooth;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  section {
+    @apply py-20 px-6 md:px-12 lg:px-24;
+  }
+
+  .glass-card {
+    @apply bg-white bg-opacity-70 backdrop-blur-sm rounded-xl shadow-md;
+  }
+}
