@@ -28,6 +28,7 @@ const Footer = () => {
               { name: "Inicio", href: "#home" },
               { name: "Sobre Mí", href: "#about" },
               { name: "Proyectos", href: "#projects" },
+              { name: "Logros", href: "#Logros" },
               { name: "Contacto", href: "#contact" },
             ].map((item, idx) => (
               <li key={idx}>
