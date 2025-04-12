@@ -33,7 +33,6 @@ const ProjectCard = ({ project }) => {
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-800 hover:bg-green-900 text-white px-4 py-2 rounded-lg text-sm transition-colors"
-
             >
               Ver PDF
             </a>
