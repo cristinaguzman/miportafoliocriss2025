@@ -1,5 +1,5 @@
 import React from "react";
-import logro from "../data/seccionueva.json"; // ← ahora lo traes desde el JSON
+import logro from "../data/seccionueva.json"; // 
 
 const NuevaSeccion = () => {
   return (
