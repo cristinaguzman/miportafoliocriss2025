@@ -6,6 +6,7 @@ const Hero = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    // Load personal data
     setPersonal(personalData);
     setLoading(false);
   }, []);
@@ -35,7 +36,7 @@ const Hero = () => {
           <p className="text-lg text-gray-700 mb-8 max-w-lg mx-auto md:mx-0">
             {personal.shortBio}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start flex-wrap">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
               href="#projects"
               className="inline-block bg-secondary hover:bg-secondary/90 text-white py-3 px-8 rounded-lg shadow-lg transition-colors"
@@ -48,16 +49,6 @@ const Hero = () => {
             >
               Contacto
             </a>
-            {personal.figmaUrl && (
-              <a
-                href={personal.figmaUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-purple-600 hover:bg-purple-700 text-white py-3 px-8 rounded-lg shadow-lg transition-colors"
-              >
-                Ver en Figma
-              </a>
-            )}
           </div>
         </div>
         <div className="md:w-1/2 flex justify-center mb-10 md:mb-0">
