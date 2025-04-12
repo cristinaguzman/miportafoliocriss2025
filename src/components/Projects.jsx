@@ -55,7 +55,7 @@ const ProjectCard = ({ project }) => {
               href={project.liveUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#2ecc71] text-white px-4 py-2 rounded-lg text-sm hover:bg-[#27ae60] transition-colors"
+              className="bg-[#238463] text-white px-4 py-2 rounded-lg text-sm hover:bg-[#2E9F78] transition-colors"
 
             >
               Ver Proyecto
