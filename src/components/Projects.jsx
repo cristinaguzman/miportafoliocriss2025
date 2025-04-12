@@ -43,7 +43,8 @@ const ProjectCard = ({ project }) => {
               href={project.figmaUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg text-sm transition-colors"
+              className="bg-green-400 hover:bg-green-500 text-white px-4 py-2 rounded-lg text-sm transition-colors"
+
             >
               Ver en Figma
             </a>
@@ -54,7 +55,8 @@ const ProjectCard = ({ project }) => {
               href={project.liveUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-secondary text-white px-4 py-2 rounded-lg text-sm hover:bg-secondary/90 transition-colors"
+              className="bg-[#2ecc71] text-white px-4 py-2 rounded-lg text-sm hover:bg-[#27ae60] transition-colors"
+
             >
               Ver Proyecto
             </a>
