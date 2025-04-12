@@ -32,7 +32,8 @@ const ProjectCard = ({ project }) => {
               href={project.pdfUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm transition-colors"
+              className="bg-green-800 hover:bg-green-900 text-white px-4 py-2 rounded-lg text-sm transition-colors"
+
             >
               Ver PDF
             </a>
@@ -55,7 +56,7 @@ const ProjectCard = ({ project }) => {
               href={project.liveUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#238463] text-white px-4 py-2 rounded-lg text-sm hover:bg-[#2E9F78] transition-colors"
+              className="bg-[#82ECC7] text-white px-4 py-2 rounded-lg text-sm hover:bg-[#2E9F78] transition-colors"
 
             >
               Ver Proyecto
